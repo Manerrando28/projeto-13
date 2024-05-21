@@ -1,0 +1,19 @@
+.home-image {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Garante que o contêiner tenha altura total */
+  }
+  
+  .home-image img {
+    max-width: 100%; /* Ajusta a largura da imagem para caber no contêiner */
+    max-height: 100%; /* Ajusta a altura da imagem para caber no contêiner */
+    object-fit: contain; /* Mantém a proporção da imagem */
+  }
+  .home-image img {
+    max-width: 100%; /* Ajusta a largura da imagem para caber no contêiner */
+    max-height: 100%; /* Ajusta a altura da imagem para caber no contêiner */
+    object-fit: contain; /* Mantém a proporção da imagem */
+    filter: grayscale(100%) brightness(80%) contrast(120%); /* Exemplo de filtro: escala de cinza, brilho aumentado e contraste aumentado */
+  }
+  
